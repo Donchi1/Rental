@@ -1028,7 +1028,7 @@ function Home() {
                       <div className="customer-thumb">
                         <Link to="#">
                           <img
-                            src="https://themebeyond.com/html/startesk/starteskimg/images/rating_logo03.jpg"
+                            src="https://themebeyond.com/html/startesk/startesk/img/images/rating_logo03.jpg"
                             alt="img"
                           />
                         </Link>
@@ -1080,7 +1080,7 @@ function Home() {
                       <div className="customer-thumb">
                         <Link to="#">
                           <img
-                            src="https://themebeyond.com/html/startesk/starteskimg/images/rating_logo02.jpg"
+                            src="https://themebeyond.com/html/startesk/startesk/img/images/rating_logo02.jpg"
                             alt="img"
                           />
                         </Link>

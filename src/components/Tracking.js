@@ -16,6 +16,7 @@ function Tracking() {
   const classes = useStyles()
 
   const trackingData = useSelector((state) => state.firestore.ordered.packages)
+  console.log(trackingData)
 
   const [trackerId, setTrackerId] = useState('')
   const [mypackage, setMyPackage] = useState([])

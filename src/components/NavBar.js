@@ -333,7 +333,7 @@ function NavBar() {
               <div className="col-xl-3 col-lg-4">
                 <div className="third-logo">
                   <a href="/">
-                    <h2 className="text-uppercase">DonnyExpress</h2>
+                    <h3 className="text-uppercase">DonnyExpress</h3>
                   </a>
                 </div>
               </div>
@@ -388,7 +388,7 @@ function NavBar() {
               <div className="col-lg-3 col-md-6">
                 <div className="logo">
                   <a href="/">
-                    <h2 className="text-uppercase">DonnyExpress</h2>
+                    <h3 className="text-uppercase">DonnyExpress</h3>
                   </a>
                 </div>
               </div>
