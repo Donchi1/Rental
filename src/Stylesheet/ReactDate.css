@@ -1,0 +1,49 @@
+.maintimedd {
+  line-height: 24px;
+  margin: 0;
+  width: 100px;
+
+  padding: 3px 0px;
+  font-size: 18px;
+  border: 1px solid #c7c7c7;
+  color: #231f20;
+  width: 102px;
+  background: white;
+  border: none;
+
+  -webkit-appearance: none;
+  background: url(data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIPnI+py+0/hJzz0IruwjsVADs=);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: no-repeat;
+  background-position: 95% 42%;
+}
+
+.main-date {
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  border: 1px solid #ffffff;
+  width: 130px;
+}
+
+.main-datetime-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2px 0 2px;
+}
+/* Removes the clear button from date inputs */
+.main-datetime-wrapper input[type='date']::-webkit-clear-button {
+  display: none;
+}
+
+/* Removes the spin button */
+input[type='date']::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* Always display the drop down caret */
+input[type='date']::-webkit-calendar-picker-indicator {
+  color: #2c3e50;
+}

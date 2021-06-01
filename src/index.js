@@ -1,34 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { Provider } from 'react-redux'
-
-import firebase from './database/firebasedb'
-import { ReactReduxFirebaseProvider } from 'react-redux-firebase'
-import { createFirestoreInstance } from 'redux-firestore'
-
-import './components/css/App.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App'
-import { createStore } from 'redux'
-import { rootReducer } from './database/root'
-
-const initialState = {}
-
-const store = createStore(rootReducer, initialState)
+import './Stylesheet/App.css'
+import './Stylesheet/Main.css'
+import './Stylesheet/ReactDate.css'
+import './Stylesheet/Search.css'
+import './Stylesheet/OverriteDate.css'
 
 ReactDOM.render(
-  <Provider store={store}>
-    <ReactReduxFirebaseProvider
-      firebase={firebase}
-      createFirestoreInstance={createFirestoreInstance}
-      dispatch={store.dispatch}
-      config={{
-        attachAuthIsReady: true,
-      }}
-    >
-      <App />
-    </ReactReduxFirebaseProvider>
-  </Provider>,
+  <>
+    <App />
+  </>,
   document.getElementById('root'),
 )
